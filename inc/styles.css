@@ -1238,6 +1238,28 @@ section.service-page {
 }
 
 
+@media (min-width: 1900px) {
+    .first-image {
+        width: 424px;
+        height: 572px;
+    }
+
+    .second-image {
+        height: 274px;
+        width: 290px;
+        left: 58%;
+    }
+
+    .third-image {
+        width: 495px;
+        height: 313px;
+        left: 33%;
+    }
+
+
+}
+
+
 @media (min-width: 768px) and (max-width: 1199.98px) {
     button.btn.btn-link {
         left: 9%;
