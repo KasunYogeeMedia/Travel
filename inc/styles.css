@@ -1009,44 +1009,194 @@ section.known-us {
   left: 33%;
 }
 
-/* .first-image {
-    overflow: hidden;
-    width: 60%;
+
+/*-----------------------------------------SAMPLE STEPS PAGE-------------------------------------------*/
+.line1 {
+    border: 1px solid #606371;
 }
 
-.second-image {
-    overflow: hidden;
+.status-content.text-center {
+    font-size: 30px;
+    font-weight: 500;
+    color: #25325c;
+    width: 35%;
+    margin: 72px auto;
 }
-img.f-image {
-    width: 319px;
-    height: 480px;
-    top: -13%;
+
+.sample-status-bottom {
+    margin: 20px 80px -6px 80px;
+}
+.card-icon span {
+    font-size: 40px;
+}
+
+.card-icon span {
+    font-size: 40px;
+    color: #c1b086;
+}
+
+h4.font-weight-bold.pb-2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.card .body p {
+    text-align: center;
+    padding-top: 18px;
+    font-size: 16px;
+    color: #756f6f;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+
+.card-icon {
+    text-align: center;
+}
+
+.read-more {
+    text-align: center;
+}
+
+button.btn {
+    color: #c1b086;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.card.text-center {
+    border: none;
+}
+
+.lower-button {
+    text-align: center;
+}
+
+button.btn-lower {
+    background: #C1B086;
+    color: white;
+}
+
+card.body {
+    padding: 25px;
+}
+
+/*-------------------------------------IMAGE GALLERY------------------------------------------*/
+section.image-gallery {
+    margin: 72px 0px 0px 0px;
+}
+
+.image-gallery-banner {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     position: relative;
-    object-fit: fill;
 }
 
-img.s-image {
-    width: auto;
-    height: 220px;
-    top: 10;
+.image-gallery-banner h2.text-center {
+    transform: translate(-50%, -50%);
+    top: 50%;
     position: absolute;
-    object-fit: fill;
-    left: 62%;
-    top: 13%;
+    left: 50%;
+    color: #fff;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 1.3em;
+    text-shadow: 2px 3px #323030;
 }
 
-.third-image {
-    overflow: hidden;
+
+/*-----------------------------SERVICE PAGE---------------------------------------*/
+
+p.titleof-services {
+    text-align: center;
+    font-size: 40px;
+    color: #31708f;
+    font-weight: 350;
+}
+.service-title.text-center {
+    padding: 40px 0px;
 }
 
-img.t-image {
-    position: absolute;
-    width: 60%;
-    height: 69%;
-    object-fit: fill;
-    top: 70%;
-    left: 32%;
-} */
+.line-3 {
+    border-bottom: 2px solid #31708f;
+    width: 8%;
+    margin: 0 auto;
+    height: 31px;
+}
+.service .sample-status-bottom {
+    margin: 0px 126px 20px 126px;
+}
+
+.service .sample-status-bottom .card.text-center {
+    height: 425px;
+    border: none;
+}
+
+.service .sample-status-bottom card.body {
+    padding: 30px;
+    background: #f1f1f1;
+    height: 430px;
+}
+
+.service .sample-status-bottom .card-icon span {
+    font-size: 40px;
+    color: #31708f;
+    background: #f1f1f1;
+    padding: 11px 18px;
+    border: 1px solid #31708f;
+}
+
+.service .sample-status-bottom h4.font-weight-bold.pb-2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5em;
+    color: #31708f;
+    font-size: 15px;
+    padding-top: 25px;
+    width: 71%;
+    margin: 0 auto;
+    letter-spacing: 1px;
+}
+
+.service .sample-status-bottom .card .body p {
+    text-align: center;
+    padding-top: 2px;
+    font-size: 15px;
+    color: #c0b4b4;
+    font-weight: 400;
+}
+
+section.service-page {
+    background: #f5f5f5;
+}
+@media (max-width: 1300px) {
+    .first-image {
+        width: 262px;
+        height: 430px;
+    }
+
+    .second-image {
+        height: 198px;
+        width: 202px;
+        top: 17%;
+        left: 59%;
+    }
+
+    .third-image {
+        width: 335px;
+        height: 217px;
+        top: 72%;
+        left: 33%;
+    }
+}
+
+
+
 @media (max-width: 1199.98px) {
   .carousel-caption {
     top: 27%;
@@ -1073,12 +1223,14 @@ img.t-image {
     left: 64%;
   }
 
-  .third-image {
-    width: 323px;
-    height: 230px;
-    top: 66%;
-    left: 33%;
-  }
+    .third-image {
+        width: 323px;
+        height: 230px;
+        top: 66%;
+        left: 33%;
+    }
+
+    
 }
 
 @media (min-width: 768px) and (max-width: 1199.98px) {
@@ -1144,6 +1296,11 @@ img.t-image {
         font-size: 16px;
         margin-top: 20px;
     } */
+
+    /*-----------------------------------------SAMPLE STEPS PAGE-------------------------------------------*/
+    .status-content.text-center {
+        width: 62%;
+    }
 }
 
 @media (max-width: 991.98px) {
@@ -1216,15 +1373,15 @@ img.t-image {
     height: 503px;
   }
 
-  .second-image {
-    height: 241px;
-    width: 270px;
-  }
+    .second-image {
+        height: 241px;
+        width: 270px;
+    }
 
-  .third-image {
-    width: 442px;
-    height: 287px;
-  }
+    .third-image {
+        width: 442px;
+        height: 287px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -1402,11 +1559,12 @@ img.t-image {
     left: 57%;
   }
 
-  .third-image {
-    width: 442px;
-    height: 287px;
-    left: 27.5%;
-  }
+    .third-image {
+        width: 442px;
+        height: 287px;
+        left: 27.5%;
+    }
+
 
   /* 
     nav.navbar.navbar-expand-lg.navbar-light.px-5.fixed-top {
@@ -1530,12 +1688,13 @@ img.t-image {
     padding-top: 32px;
   }
 
-  /*-----------------------ABOUT US-----------------------------------------*/
-  h1.centered {
-    font-size: 65px;
-    top: 40%;
-    left: 30%;
-  }
+    /*-----------------------ABOUT US-----------------------------------------*/
+    h1.centered {
+        font-size: 65px;
+        top: 40%;
+        left: 30%;
+    }
+
 }
 
 @media only screen and (max-width: 576px) {
@@ -1812,22 +1971,22 @@ img.t-image {
     margin-bottom: 130px;
   }
 
-  .first-image {
-    width: 181px;
-    height: 282px;
-  }
+    .first-image {
+        width: 181px;
+        height: 282px;
+    }
 
-  .second-image {
-    height: 121px;
-    width: 140px;
-    left: 59%;
-  }
+    .second-image {
+        height: 121px;
+        width: 140px;
+        left: 59%;
+    }
 
-  .third-image {
-    width: 247px;
-    height: 147px;
-    left: 27.5%;
-  }
+    .third-image {
+        width: 247px;
+        height: 147px;
+        left: 27.5%;
+    }
 }
 
 @media (max-width: 575.98px) {
@@ -1943,47 +2102,3 @@ img.t-image {
 .form_sec {
   background-color: #296e95;
 }
-.text-lg {
-  font-size: 50px;
-}
-.sub_head {
-  font-size: 20px;
-  font-weight: 300;
-}
-section.footer-section {
-  margin-top: 0;
-}
-@media (max-width: 768px) {
-  .text-lg {
-    font-size: 30px;
-  }
-}
-.bg-green {
-  background-color: #4bf056 !important;
-  border-color: #4bf056 !important;
-}
-.form_sec .input-group,
-.form_sec .form-group,
-.form_sec .btn-primary {
-  -webkit-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.3);
-}
-.form_sec .form {
-  max-width: 800px;
-  margin: auto;
-}
-.form_sec .w-100 {
-  min-height: 0;
-}
-.lg-text {
-    font-size: 20px;
-}
-.next_btn .btn{
-    background-color: #4ab678;
-}
-
-/* form 2 page */
-.choose_sec input{
-    
-}
-/* Kasun Styles */
