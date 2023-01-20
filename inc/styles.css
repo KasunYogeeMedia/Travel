@@ -1182,6 +1182,28 @@ p.titleof-services {
 section.service-page {
     background: #f5f5f5;
 }
+@media (max-width: 1300px) {
+    .first-image {
+        width: 262px;
+        height: 430px;
+    }
+
+    .second-image {
+        height: 198px;
+        width: 202px;
+        top: 17%;
+        left: 59%;
+    }
+
+    .third-image {
+        width: 335px;
+        height: 217px;
+        top: 72%;
+        left: 33%;
+    }
+}
+
+
 
 @media (max-width: 1199.98px) {
     .carousel-caption {
@@ -1406,11 +1428,13 @@ section.service-page {
     .second-image {
         height: 241px;
         width: 270px;
+        left: 58%;
     }
 
     .third-image {
         width: 442px;
         height: 287px;
+        top: 73%;
     }
 
     /*---------------------------------SERVICE SECTION---------------------------------------*/
@@ -1751,7 +1775,44 @@ section.service-page {
         width: 100%;
     }
 
+
+    .first-image {
+        width: 330px;
+        height: 546px;
+    }
+
+    .second-image {
+        height: 218px;
+        width: 229px;
+        left: 61%;
+    }
+
+    .third-image {
+    width: 431px;
+    height: 292px;
+    left: 27.5%;
 }
+
+}
+/* 
+@media (min-width: 577px) and (max-width: 800px) {
+    .first-image {
+        width: 250px;
+        height: 444px;
+    }
+
+    .second-image {
+        height: 190px;
+        width: 200px;
+        left: 64%;
+    }
+
+    .third-image {
+        width: 361px;
+        height: 235px;
+        left: 27.5%;
+    }
+} */
 
 @media only screen and (max-width:576px) {
     .grid {
@@ -2028,22 +2089,6 @@ section.service-page {
         margin-bottom: 130px;
     }
 
-    .first-image {
-        width: 181px;
-        height: 282px;
-    }
-
-    .second-image {
-        height: 121px;
-        width: 140px;
-        left: 59%;
-    }
-
-    .third-image {
-        width: 247px;
-        height: 147px;
-        left: 27.5%;
-    }
 
     /*-----------------------------------------SAMPLE STEPS PAGE-------------------------------------------*/
     .status-content.text-center {
@@ -2060,6 +2105,23 @@ section.service-page {
         width: 80%;
         font-size: 25px;
     }
+
+/*------------------------------------------known us-----------------------------------------*/
+.first-image {
+    width: 155px;
+    height: 297px;
+}
+
+.second-image {
+    height: 125px;
+    width: 129px;
+    left: 57%;
+}
+.third-image {
+    width: 217px;
+    height: 154px;
+    left: 27.5%;
+}
 }
 
 
@@ -2172,48 +2234,61 @@ section.service-page {
 
 }
 
-@media (min-width: 569px) and (max-width: 756px) {
-    .first-image {
-        width: 269px;
-        height: 450px;
-    }
 
-    section.known-us {
-        margin: 70px 48px;
-        margin-bottom: 210px;
+
+@media (max-width: 500px) {
+
+    /* .first-image {
+        width: 215px;
+        height: 352px;
     }
 
     .second-image {
-        height: 174px;
-        width: 214px;
+        height: 166px;
+        width: 178px;
         left: 60%;
     }
 
     .third-image {
-        width: 372px;
-        height: 223px;
+        width: 311px;
+        height: 198px;
         left: 27.5%;
-        top: 71%;
-    }
-
+    } */
 }
-
-@media (max-width: 500px) {
+@media (min-width: 393px) and (max-width: 420px) {
     .first-image {
-        width: 151px;
-        height: 282px;
+        width: 197px;
+        height: 323px;
     }
 
     .second-image {
-        height: 121px;
-        width: 121px;
-        left: 55%;
+        height: 133px;
+        width: 146px;
+        left: 61%;
     }
 
     .third-image {
-        width: 230px;
-        height: 150px;
+        width: 264px;
+        height: 175px;
         left: 27.5%;
-        top: 74%;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 340px) {
+    .first-image {
+        width: 143px;
+        height: 253px;
+    }
+
+    .second-image {
+        height: 107px;
+        width: 107px;
+        left: 62%;
+    }
+
+    .third-image {
+        width: 196px;
+        height: 139px;
+        left: 27.5%;
     }
 }
