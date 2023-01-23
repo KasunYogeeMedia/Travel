@@ -1174,6 +1174,167 @@ p.titleof-services {
 section.service-page {
     background: #f5f5f5;
 }
+section.contact-main-description {
+    /* margin: 133px 0px 50px 0px; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+section.our-details {
+    background: #bddee6;
+}
+section.our-details {
+    padding-left: 120px;
+    padding-bottom: 59px;
+}
+section.Map-Area {
+    background: #bddee6;
+}
+
+.l-s h3 {
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+
+.locations i {
+    margin-right: 15px;
+}
+
+.locations {
+    display: flex;
+    margin-right: 25px;
+}
+
+.Map-Area .row {
+    margin: 0px 50px;
+    background: #0b0b64;
+    color: blue;
+}
+
+
+.Map-Area iframe {
+    width: 112%;
+    height: 800px;
+    margin: 50px 0px;
+}
+
+.contact-form-main h2 {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 1.8em;
+}
+
+.contact-form-main p {
+    width: 79%;
+    line-height: 1.5em;
+    color: #5f6060;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.contact-form {
+    padding-top: 30px;
+}
+
+.contact-form label {
+    padding-bottom: 7px;
+}
+
+section.contact-main-description {
+    background: #bddee6;
+}
+
+.contact-form input {
+    height: 50px;
+    border-radius: 0px;
+}
+.contact-info {
+    margin: 50px;
+    padding: 60px;
+    position: absolute;
+    background: white;
+    width: 50%;
+    top: 16%;
+}
+
+section.footer-links {
+    padding: 50px 50px 50px 107px;
+}
+
+section.Map-Area {
+    position: relative;
+}
+
+.locations li {
+    list-style: none;
+}
+
+p.text-center {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+h2.text-center {
+    line-height: 1.8em;
+    font-size: 34px;
+    font-weight: 400;
+}
+
+
+button.btn.btn-default {
+    background: #c1b086;
+    color: white;
+    border-radius: 25px;
+    padding: 11px 32px;
+}
+
+/*------------------------------CONTACT PAGE---------------------------------------------*/
+.main-content-contact {
+    text-align: center;
+}
+
+.footer-links h3 {
+    font-size: 20px;
+    font-weight: 400;
+    /* line-height: 3em; */
+}
+
+.social-lofo-des p {
+    padding-top: 25px;
+    font-weight: 4000;
+    font-size: 15px;
+    color: #9d8e8e;
+    font-weight: 400;
+    line-height: 1.8em;
+}
+
+.social-lofo-des img.payment-image {
+    padding-top: 30px;
+}
+
+.social li {
+    list-style: none;
+    line-height: 3;
+    color: #9d8e8e;
+}
+
+.social {
+    line-height: 2em;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.social p span {
+    padding-left: 15px;
+}
+
+.locations a {
+    color: #b5805d;
+    line-height: 3.5em;
+}
 @media (max-width: 1300px) {
     .first-image {
         width: 262px;
