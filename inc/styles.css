@@ -415,7 +415,7 @@ section.explore-carousel {
   height: 664px;
   position: absolute;
   top: 0;
-  right: 8%;
+  left: 8%;
   padding-top: 5%;
   color: white;
   box-shadow: 11px 11px 16px -11px rgb(0 0 0);
@@ -1019,7 +1019,7 @@ section.known-us {
   font-weight: 500;
   color: #25325c;
   width: 35%;
-  margin: 72px auto;
+  margin: 65px auto 45px;
 }
 
 .sample-status-bottom {
@@ -1173,165 +1173,163 @@ section.service-page {
   background: #f5f5f5;
 }
 section.contact-main-description {
-    /* margin: 133px 0px 50px 0px; */
-    padding-top: 100px;
-    padding-bottom: 100px;
+  /* margin: 133px 0px 50px 0px; */
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 section.our-details {
-    background: #bddee6;
+  background: #bddee6;
 }
 section.our-details {
-    padding-left: 120px;
-    padding-bottom: 59px;
+  padding-left: 120px;
+  padding-bottom: 59px;
 }
 section.Map-Area {
-    background: #bddee6;
+  background: #bddee6;
 }
 
 .l-s h3 {
-    font-size: 20px;
-    padding-bottom: 20px;
-    font-weight: 400;
+  font-size: 20px;
+  padding-bottom: 20px;
+  font-weight: 400;
 }
 
 .locations i {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 
 .locations {
-    display: flex;
-    margin-right: 25px;
+  display: flex;
+  margin-right: 25px;
 }
 
 .Map-Area .row {
-    margin: 0px 50px;
-    background: #0b0b64;
-    color: blue;
+  margin: 0px 50px;
+  background: #0b0b64;
+  color: blue;
 }
 
-
 .Map-Area iframe {
-    width: 112%;
-    height: 800px;
-    margin: 50px 0px;
+  width: 112%;
+  height: 800px;
+  margin: 50px 0px;
 }
 
 .contact-form-main h2 {
-    font-size: 35px;
-    font-weight: 400;
-    line-height: 1.8em;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 1.8em;
 }
 
 .contact-form-main p {
-    width: 79%;
-    line-height: 1.5em;
-    color: #5f6060;
-    font-weight: 300;
-    font-size: 18px;
+  width: 79%;
+  line-height: 1.5em;
+  color: #5f6060;
+  font-weight: 300;
+  font-size: 18px;
 }
 
 .contact-form {
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
 .contact-form label {
-    padding-bottom: 7px;
+  padding-bottom: 7px;
 }
 
 section.contact-main-description {
-    background: #bddee6;
+  background: #bddee6;
 }
 
 .contact-form input {
-    height: 50px;
-    border-radius: 0px;
+  height: 50px;
+  border-radius: 0px;
 }
 .contact-info {
-    margin: 50px;
-    padding: 60px;
-    position: absolute;
-    background: white;
-    width: 50%;
-    top: 16%;
+  margin: 50px;
+  padding: 60px;
+  position: absolute;
+  background: white;
+  width: 50%;
+  top: 16%;
 }
 
 section.footer-links {
-    padding: 50px 50px 50px 107px;
+  padding: 50px 50px 50px 107px;
 }
 
 section.Map-Area {
-    position: relative;
+  position: relative;
 }
 
 .locations li {
-    list-style: none;
+  list-style: none;
 }
 
 p.text-center {
-    width: 60%;
-    margin: 0 auto;
-    font-size: 19px;
-    font-weight: 300;
+  width: 60%;
+  margin: 0 auto;
+  font-size: 19px;
+  font-weight: 300;
 }
 
 h2.text-center {
-    line-height: 1.8em;
-    font-size: 34px;
-    font-weight: 400;
+  line-height: 1.8em;
+  font-size: 34px;
+  font-weight: 400;
 }
 
-
 button.btn.btn-default {
-    background: #c1b086;
-    color: white;
-    border-radius: 25px;
-    padding: 11px 32px;
+  background: #c1b086;
+  color: white;
+  border-radius: 25px;
+  padding: 11px 32px;
 }
 
 /*------------------------------CONTACT PAGE---------------------------------------------*/
 .main-content-contact {
-    text-align: center;
+  text-align: center;
 }
 
 .footer-links h3 {
-    font-size: 20px;
-    font-weight: 400;
-    /* line-height: 3em; */
+  font-size: 20px;
+  font-weight: 400;
+  /* line-height: 3em; */
 }
 
 .social-lofo-des p {
-    padding-top: 25px;
-    font-weight: 4000;
-    font-size: 15px;
-    color: #9d8e8e;
-    font-weight: 400;
-    line-height: 1.8em;
+  padding-top: 25px;
+  font-weight: 4000;
+  font-size: 15px;
+  color: #9d8e8e;
+  font-weight: 400;
+  line-height: 1.8em;
 }
 
 .social-lofo-des img.payment-image {
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
 .social li {
-    list-style: none;
-    line-height: 3;
-    color: #9d8e8e;
+  list-style: none;
+  line-height: 3;
+  color: #9d8e8e;
 }
 
 .social {
-    line-height: 2em;
-    padding-top: 20px;
-    font-size: 15px;
+  line-height: 2em;
+  padding-top: 20px;
+  font-size: 15px;
 }
 
 .social p span {
-    padding-left: 15px;
+  padding-left: 15px;
 }
 
 .locations a {
-    color: #b5805d;
-    line-height: 3.5em;
+  color: #b5805d;
+  line-height: 3.5em;
 }
 @media (max-width: 1300px) {
   .first-image {
@@ -1937,7 +1935,7 @@ button.btn.btn-default {
   }
 
   .top {
-    margin-top: 65%;
+    margin-top: 200px;
   }
 
   .wrapper2 .text {
@@ -2251,6 +2249,59 @@ button.btn.btn-default {
 }
 
 /* Kasun Styles */
+/* hero section */
+.hero {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 900px;
+}
+.hero_inn {
+  padding-top: 280px;
+}
+.hero_inn .sm_text {
+  font-size: 22px;
+  font-weight: 400;
+  margin: 20px 0;
+}
+.hero_inn span {
+  font-size: 50px;
+}
+.hero_inn .btn {
+  border-radius: 20px;
+  color: #43b5b1;
+  font-weight: bold;
+  font-size: 28px;
+  padding: 12px 20px;
+}
+.img {
+  position: relative;
+}
+
+.click {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.68);
+  font-size: 26px;
+}
+.btn_popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  color: #ffc693;
+  background-color: #fff;
+}
+.wrapper2 {
+  margin-bottom: 150px;
+}
 /* form page styles */
 .form_sec .form {
   max-width: 800px;
@@ -2290,7 +2341,64 @@ section.footer-section {
   color: #fff;
   font-size: 30px;
 }
+@media screen and (max-width: 1200px) {
+  .hero {
+    height: 600px;
+  }
+  .hero_inn {
+    padding-top: 180px;
+  }
+  .hero_inn span {
+    font-size: 32px;
+  }
+  .hero_inn .sm_text {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  .hero_inn .btn {
+    font-size: 16px;
+  }
+  .click {
+    font-size: 18px;
+  }
+  .fa-play-circle {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .hero_inn {
+    padding-top: 120px;
+  }
+  .hero_cap,
+  .sm_text {
+    text-align: center;
+  }
+  .hero_cap span {
+    font-size: 28px;
+  }
 
+  .hero_cap span,
+  .sm_text {
+    text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.68);
+  }
+  .img {
+    text-align: center;
+  }
+  .img img {
+    max-width: 350px;
+    margin: auto;
+    width: 100%;
+  }
+  .sample-status-bottom {
+    margin: 20px;
+  }
+  .wrapper2 {
+    margin-bottom: 250px;
+  }
+}
+.navbar {
+  background-color: #00000047;
+}
 /* form2 page */
 .lg-text {
   font-size: 22px;
@@ -2319,8 +2427,9 @@ section.footer-section {
   border: 3px solid rgb(255 255 255);
   background-color: #f5f5f500;
 }
-.ch_btn .btn {
+.ch_btn .btnCh {
   background-color: #cdcdcd;
+  border-color: #cdcdcd;
   color: #fff;
   padding: 30px 50px;
   border-radius: 0;
@@ -2344,7 +2453,7 @@ section.footer-section {
     font-size: 20px;
     margin-top: 0;
   }
-  .ch_btn .btn {
+  .ch_btn .btnCh {
     background-color: #cdcdcd;
     color: #fff;
     padding: 10px 20px;
@@ -2356,6 +2465,50 @@ section.footer-section {
   }
   .fa-plus-circle {
     font-size: 22px;
+  }
 }
+
+/* Form Model */
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 90%;
+  }
+}
+
+.buttonOpt {
+  float: left;
+  margin: 0 5px 0 0;
+  width: 100px;
+  height: 40px;
+  position: relative;
+}
+
+.buttonOpt label,
+.buttonOpt input {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.buttonOpt input[type="radio"] {
+  opacity: 0.011;
+  z-index: 100;
+}
+
+.buttonOpt input[type="radio"]:checked + label {
+  background: #20b8be;
+  border-radius: 4px;
+}
+
+.buttonOpt label {
+  cursor: pointer;
+  z-index: 90;
+  line-height: 1.8em;
+}
+.star .checked {
+  color: orange;
 }
 /* Kasun Styles */
