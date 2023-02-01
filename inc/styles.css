@@ -2341,6 +2341,14 @@ section.footer-section {
   color: #fff;
   font-size: 30px;
 }
+@media screen and (max-width: 1400px) {
+  .hero {
+    height: 800px;
+  }
+  .hero_inn {
+    padding-top: 240px;
+  }
+}
 @media screen and (max-width: 1200px) {
   .hero {
     height: 600px;
