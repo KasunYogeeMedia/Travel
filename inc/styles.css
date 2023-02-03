@@ -1111,6 +1111,10 @@ section.image-gallery {
   text-shadow: 2px 3px #323030;
 }
 
+.container-fluid.ss-1 {
+  padding: 0px;
+}
+
 /*-----------------------------SERVICE PAGE---------------------------------------*/
 
 p.titleof-services {
