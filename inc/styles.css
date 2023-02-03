@@ -2247,6 +2247,10 @@ i.fas.fa-leaf-maple {
     padding: 0px 0px;
     padding-right: 0px;
   }
+
+  .service .sample-status-bottom {
+    margin: 0px 20px 20px 20px;
+}
 }
 
 @media (max-width: 575.98px) {
@@ -2370,6 +2374,12 @@ i.fas.fa-leaf-maple {
     padding: 0px 0px;
     padding-right: 0px;
   }
+
+  .service .sample-status-bottom {
+    margin: 0px 20px 20px 20px;
+}
+
+
 }
 
 /* Kasun Styles */
@@ -2643,6 +2653,8 @@ section.footer-section {
   }
 
 
+
+
 }
 
 .navbar {
@@ -2749,6 +2761,8 @@ section.footer-section {
   }
 
 
+
+
 }
 
 /* Form Model */
@@ -2756,6 +2770,10 @@ section.footer-section {
   .modal-dialog {
     max-width: 90%;
   }
+
+  .service .sample-status-bottom {
+    margin: 0px 20px 20px 20px;
+}
 
 
 
