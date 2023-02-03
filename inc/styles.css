@@ -304,6 +304,7 @@ button:hover.btn.btn-link {
   background: #3f9cc1;
   padding: 20px;
 }
+
 .booking-section input {
   width: 100%;
   padding: 15px;
@@ -772,8 +773,8 @@ section.video-gallery {
   margin-left: 100px;
   margin-right: 100px;
   margin-top: 80px;
+  margin-bottom: 50px;
 }
-
 iframe {
   width: 100%;
   height: 380px;
@@ -840,6 +841,7 @@ section.footer-section {
 section.steps-2 {
   margin-top: 90px;
   padding: 0px 95px;
+  margin-bottom: 70px;
 }
 
 p.title-step2 {
@@ -881,8 +883,7 @@ p.title-description2 {
   padding: 0rem 0rem;
 }
 
-.steps-2 .card-title1 {
-}
+.steps-2 .card-title1 {}
 
 .steps-images {
   display: inline-flex;
@@ -904,7 +905,9 @@ p.title-description2 {
 }
 
 .steps-2 p {
-  font-size: 20px;
+  font-size: 10px;
+  padding-top: 8px;
+  line-height: 1.7em;
 }
 
 p.title-step2 {
@@ -1025,6 +1028,7 @@ section.known-us {
 .sample-status-bottom {
   margin: 20px 80px -6px 80px;
 }
+
 .card-icon span {
   font-size: 40px;
 }
@@ -1115,6 +1119,7 @@ p.titleof-services {
   color: #31708f;
   font-weight: 350;
 }
+
 .service-title.text-center {
   padding: 40px 0px;
 }
@@ -1125,6 +1130,7 @@ p.titleof-services {
   margin: 0 auto;
   height: 31px;
 }
+
 .service .sample-status-bottom {
   margin: 0px 126px 20px 126px;
 }
@@ -1172,6 +1178,7 @@ p.titleof-services {
 section.service-page {
   background: #f5f5f5;
 }
+
 section.contact-main-description {
   /* margin: 133px 0px 50px 0px; */
   padding-top: 100px;
@@ -1181,10 +1188,12 @@ section.contact-main-description {
 section.our-details {
   background: #bddee6;
 }
+
 section.our-details {
   padding-left: 120px;
   padding-bottom: 59px;
 }
+
 section.Map-Area {
   background: #bddee6;
 }
@@ -1246,6 +1255,7 @@ section.contact-main-description {
   height: 50px;
   border-radius: 0px;
 }
+
 .contact-info {
   margin: 50px;
   padding: 60px;
@@ -1331,6 +1341,55 @@ button.btn.btn-default {
   color: #b5805d;
   line-height: 3.5em;
 }
+
+/*partners section*/
+
+.partners-description h2 {
+  font-size: 39px;
+  width: 100%;
+  text-align: right;
+  padding-left: 224px;
+}
+
+.partners-description p {
+  margin-top: 7px;
+  text-align: right;
+  font-size: 15px;
+  width: 100%;
+  padding-left: 99px;
+  line-height: 26px;
+  font-weight: 500;
+}
+
+.row.r-1 {
+  margin-left: 48px;
+}
+
+img.logo-s2 {
+  width: 58%;
+  margin-top: -18px;
+}
+
+img.logo-s1 {
+  width: 44%;
+}
+
+section.partners {
+  margin-bottom: 55px;
+}
+
+.button-part {
+  text-align: right;
+}
+i.fas.fa-leaf-maple {
+  padding-right: 11px;
+}
+
+.social-lofo-des h2 {
+  font-size: 29px;
+  color: #a39685;
+}
+
 @media (max-width: 1300px) {
   .first-image {
     width: 262px;
@@ -1384,6 +1443,14 @@ button.btn.btn-default {
     top: 66%;
     left: 33%;
   }
+
+  section.footer-links {
+    padding: 50px 50px 50px 64px;
+  }
+
+  section.steps-2 {
+    padding: 0px 16px;
+}
 }
 
 @media (min-width: 768px) and (max-width: 1199.98px) {
@@ -1420,6 +1487,10 @@ button.btn.btn-default {
   button.sa-2 {
     margin-left: 0px;
     width: 100%;
+  }
+
+  section.footer-links {
+    padding: 50px 50px 50px 64px;
   }
 }
 
@@ -1535,6 +1606,13 @@ button.btn.btn-default {
     width: 442px;
     height: 287px;
   }
+
+  section.footer-links {
+    padding: 50px 50px 50px 57px;
+  }
+  section.steps-2 {
+    padding: 0px 16px;
+}
 }
 
 @media only screen and (max-width: 768px) {
@@ -1846,6 +1924,22 @@ button.btn.btn-default {
     top: 40%;
     left: 30%;
   }
+
+
+  .steps-2 .card {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+  }
+
+  section.steps-2 {
+    padding: 0px 30px;
+    padding-right: 30px;
+  }
+
+  section.footer-links {
+    padding: 50px 50px 50px 43px;
+  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -2138,6 +2232,21 @@ button.btn.btn-default {
     height: 147px;
     left: 27.5%;
   }
+
+  section.footer-links {
+    padding: 30px 50px 50px 30px;
+  }
+
+  .steps-2 .card {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+  }
+
+  section.steps-2 {
+    padding: 0px 0px;
+    padding-right: 0px;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -2246,6 +2355,21 @@ button.btn.btn-default {
   button.sa-2 {
     width: 100%;
   }
+
+  section.footer-links {
+    padding: 30px 50px 50px 30px;
+  }
+
+  .steps-2 .card {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+  }
+
+  section.steps-2 {
+    padding: 0px 0px;
+    padding-right: 0px;
+  }
 }
 
 /* Kasun Styles */
@@ -2256,17 +2380,21 @@ button.btn.btn-default {
   background-position: top;
   height: 900px;
 }
+
 .hero_inn {
   padding-top: 280px;
 }
+
 .hero_inn .sm_text {
   font-size: 22px;
   font-weight: 400;
   margin: 20px 0;
 }
+
 .hero_inn span {
   font-size: 50px;
 }
+
 .hero_inn .btn {
   border-radius: 20px;
   color: #43b5b1;
@@ -2274,6 +2402,7 @@ button.btn.btn-default {
   font-size: 28px;
   padding: 12px 20px;
 }
+
 .img {
   position: relative;
 }
@@ -2290,6 +2419,7 @@ button.btn.btn-default {
   text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.68);
   font-size: 26px;
 }
+
 .btn_popup {
   position: absolute;
   top: 50%;
@@ -2299,88 +2429,167 @@ button.btn.btn-default {
   color: #ffc693;
   background-color: #fff;
 }
+
 .wrapper2 {
   margin-bottom: 150px;
 }
+
 /* form page styles */
 .form_sec .form {
   max-width: 800px;
   margin: auto;
 }
+
 section.footer-section {
   margin-top: 0;
 }
+
 .form_sec .input-group,
 .form_sec .btn-primary {
   -webkit-box-shadow: 0px 0px 15px -1px rgba(0, 0, 0, 0.6);
   box-shadow: 0px 0px 15px -1px rgba(0, 0, 0, 0.6);
 }
+
 .fa-search {
   color: #1182e8;
 }
+
 /* form1 page */
 .form_sec {
   background-color: #296e95;
 }
+
 .text-lg {
   font-size: 45px;
 }
+
 .sub_head {
   font-size: 20px;
   font-weight: 300;
 }
+
 .bg-green {
   background-color: #4bf056;
   border-color: #4bf056;
 }
+
 .bg-green:hover {
   background-color: #4bf056;
   border-color: #4bf056;
 }
+
 .form_sec .btn-primary {
   color: #fff;
   font-size: 30px;
 }
+
+.s-11 {
+  padding-left: 60px;
+}
+
 @media screen and (max-width: 1400px) {
   .hero {
     height: 800px;
   }
+
   .hero_inn {
     padding-top: 240px;
   }
 }
+
 @media screen and (max-width: 1200px) {
   .hero {
     height: 600px;
   }
+
   .hero_inn {
     padding-top: 180px;
   }
+
   .hero_inn span {
     font-size: 32px;
   }
+
   .hero_inn .sm_text {
     font-size: 20px;
     margin: 10px 0;
   }
+
   .hero_inn .btn {
     font-size: 16px;
   }
+
   .click {
     font-size: 18px;
   }
+
   .fa-play-circle {
     font-size: 50px;
   }
+
+  .row.r-1 {
+    margin-left: 48px;
+    margin-top: 13px;
+  }
+
+  .partners-description h2 {
+    font-size: 28px;
+    padding-left: 123px;
+  }
+
+  .partners-description p {
+    font-size: 14px;
+    padding-left: 37px;
+
+  }
+
+  img.logo-s2 {
+    width: 80%;
+    padding-top: 6px;
+  }
+
+  img.logo-s1 {
+    width: 60%;
+  }
+
 }
+
+@media screen and (max-width: 768px) {
+  .row.r-1 {
+    margin-left: 48px;
+    margin-top: 7px;
+  }
+
+  .partners-description h2 {
+    font-size: 25px;
+    text-align: right;
+  }
+
+  .partners-description p {
+    font-size: 13px;
+    padding-left: 35px;
+  }
+
+  img.logo-s1 {
+    width: 60%;
+  }
+
+  img.logo-s2 {
+    width: 82%;
+    padding-top: 6px;
+  }
+}
+
 @media screen and (max-width: 576px) {
   .hero_inn {
     padding-top: 120px;
   }
+
   .hero_cap,
   .sm_text {
     text-align: center;
   }
+
   .hero_cap span {
     font-size: 28px;
   }
@@ -2389,32 +2598,67 @@ section.footer-section {
   .sm_text {
     text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.68);
   }
+
   .img {
     text-align: center;
   }
+
   .img img {
     max-width: 350px;
     margin: auto;
     width: 100%;
   }
+
   .sample-status-bottom {
     margin: 20px;
   }
+
   .wrapper2 {
     margin-bottom: 250px;
   }
+
+  .partners-description h2 {
+    font-size: 25px;
+    text-align: center;
+    padding: 0px;
+  }
+
+  .partners-description p {
+    font-size: 13px;
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  .button-part {
+    text-align: center;
+  }
+
+  .row.r-1 {
+    margin-left: 48px;
+    margin-top: 29px;
+  }
+
+  .s-11 {
+    padding-left: 0px;
+  }
+
+
 }
+
 .navbar {
   background-color: #00000047;
 }
+
 /* form2 page */
 .lg-text {
   font-size: 22px;
 }
+
 .next_btn .btn {
   background-color: #4ab678;
   border-radius: 0;
 }
+
 .border-bottom {
   border-bottom: 0.1px solid #ffffff4d !important;
 }
@@ -2422,6 +2666,7 @@ section.footer-section {
 .form_sec .form-check {
   margin: 20px 0;
 }
+
 .form_sec .form-check-label {
   color: #fff;
   margin-left: 40px;
@@ -2429,12 +2674,14 @@ section.footer-section {
   margin-top: 5px;
   font-weight: 300;
 }
+
 .form_sec .form-check-input {
   width: 50px;
   height: 50px;
   border: 3px solid rgb(255 255 255);
   background-color: #f5f5f500;
 }
+
 .ch_btn .btnCh {
   background-color: #cdcdcd;
   border-color: #cdcdcd;
@@ -2446,21 +2693,26 @@ section.footer-section {
   margin: 10px;
   margin-left: 40px;
 }
+
 .fa-plus-circle {
   vertical-align: middle;
   margin-left: 20px;
 }
+
+
 @media screen and (max-width: 576px) {
   .form_sec .form-check-input {
     width: 30px;
     height: 30px;
     border: 2px solid rgb(255 255 255);
   }
+
   .form_sec .form-check-label {
     margin-left: 20px;
     font-size: 20px;
     margin-top: 0;
   }
+
   .ch_btn .btnCh {
     background-color: #cdcdcd;
     color: #fff;
@@ -2471,9 +2723,32 @@ section.footer-section {
     margin: 10px;
     margin-left: 20px;
   }
+
   .fa-plus-circle {
     font-size: 22px;
   }
+
+  .partners-description h2 {
+    font-size: 25px;
+    text-align: center;
+    padding: 0px;
+  }
+
+  .partners-description p {
+    font-size: 13px;
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  .button-part {
+    text-align: center;
+  }
+
+  .s-11 {
+    padding-left: 0px;
+  }
+
+
 }
 
 /* Form Model */
@@ -2481,6 +2756,10 @@ section.footer-section {
   .modal-dialog {
     max-width: 90%;
   }
+
+
+
+
 }
 
 .buttonOpt {
@@ -2506,7 +2785,7 @@ section.footer-section {
   z-index: 100;
 }
 
-.buttonOpt input[type="radio"]:checked + label {
+.buttonOpt input[type="radio"]:checked+label {
   background: #20b8be;
   border-radius: 4px;
 }
@@ -2516,7 +2795,9 @@ section.footer-section {
   z-index: 90;
   line-height: 1.8em;
 }
+
 .star .checked {
   color: orange;
 }
+
 /* Kasun Styles */
