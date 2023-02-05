@@ -939,15 +939,89 @@ h3.countries-name {
   font-size: 20px;
 }
 
-/* @media (max-width: 1399.98px) {
-    .book {
-        padding-left: 24px;
-    }
 
-    .top {
-        margin-top: 17%;
-    } 
-} */
+/*-------------------------------------BLOG PAGE1----------------------------------------------------*/
+img.img-fluid.rome {
+    padding-top: 58px;
+}
+
+.blog-image.text-center {
+  background: #fff;
+  margin: 50px 210px;
+  -webkit-box-shadow: -5px 8px 19px -1px rgba(143,136,143,1);
+  -moz-box-shadow: -5px 8px 19px -1px rgba(143,136,143,1);
+  box-shadow: -5px 8px 19px -1px rgba(143,136,143,1);
+}
+
+.container-fluid.blog1 {
+  background: white;
+  padding: 50px 50px;
+}
+
+.blog1page-news {
+  padding-left: 65px;
+  padding-right: 65px;
+  padding-top: 9px;
+  padding-bottom: 50px;
+}
+
+h4.blog-image-title {
+  font-size: 26px;
+  font-weight: 350;
+  line-height: 1.5em;
+}
+
+p.blogpage1-date {
+  font-size: 13px;
+  font-weight: 350;
+}
+
+h2.sub-title-p {
+  font-size: 30px;
+  font-weight: 400;
+  padding: 20px 0px;
+}
+
+.sub-title-post2 {
+  padding-top: 23px;
+  font-size: 13px;
+  font-weight: 392;
+}
+
+p.sub-title-para-p {
+  font-size: 13px;
+  font-weight: 392;
+}
+
+.center-paragraph p {
+  font-size: 14px;
+  width: 100%;
+}
+
+.last-para-pp {
+  padding-top: 35px;
+  line-height: 1.5em;
+  font-weight: 392;
+  font-size: 13px;
+}
+
+img.imgp-1 {
+  width: 100%;
+  height: 146px;
+  object-fit: fill;
+}
+
+img.imgp-2 {
+  width: 100%;
+  height: 146px;
+  object-fit: fill;
+  margin-top: 4px;
+}
+
+
+.post1-right-images {
+  padding-top: 39px;
+}
 
 /*------------------------------------ABOUT US PAGE---------------------------------------------------*/
 .aboutus-banner {
