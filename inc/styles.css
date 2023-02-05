@@ -933,6 +933,12 @@ p.title-description2 {
   padding-left: 16px;
 }
 
+h3.countries-name {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
 /* @media (max-width: 1399.98px) {
     .book {
         padding-left: 24px;
