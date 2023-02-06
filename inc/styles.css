@@ -998,6 +998,7 @@ p.sub-title-para-p {
 .center-paragraph p {
   font-size: 14px;
   width: 100%;
+  text-align: justify;
 }
 
 .last-para-pp {
