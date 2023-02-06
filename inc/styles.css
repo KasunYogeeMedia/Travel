@@ -990,8 +990,9 @@ h2.sub-title-p {
 }
 
 p.sub-title-para-p {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 392;
+  text-align: justify;
 }
 
 .center-paragraph p {
@@ -1003,7 +1004,7 @@ p.sub-title-para-p {
   padding-top: 35px;
   line-height: 1.5em;
   font-weight: 392;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 img.imgp-1 {
